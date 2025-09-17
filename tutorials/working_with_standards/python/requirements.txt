@@ -1,0 +1,13 @@
+# Core data manipulation and analysis
+pandas>=2.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Machine learning and embeddings
+transformers>=4.21.0
+torch>=1.12.0
+scikit-learn>=1.1.0
+
+# Optional: For GPU acceleration (uncomment if needed)
+# torch-audio>=0.12.0

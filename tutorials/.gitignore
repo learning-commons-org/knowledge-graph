@@ -1,0 +1,17 @@
+**/.DS_Store
+**/.env
+**/node_modules
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/.pytest_cache/
+**/.coverage
+**/venv/
+**/env/
+**/.venv/
+**/.env/
+
+# Data files (embeddings)
+**/*_embeddings.json

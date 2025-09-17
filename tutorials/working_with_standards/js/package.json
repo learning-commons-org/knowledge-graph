@@ -1,0 +1,25 @@
+{
+  "name": "work-with-state-standards",
+  "version": "1.0.0",
+  "description": "Working with state standards data using Knowledge Graph datasets",
+  "main": "work-with-state-standards.js",
+  "scripts": {
+    "start": "node work-with-state-standards.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.6.0",
+    "arquero": "^8.0.3",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^16.3.1",
+    "fast-cosine-similarity": "^1.2.2"
+  },
+  "keywords": [
+    "education",
+    "standards",
+    "knowledge-graph",
+    "embeddings"
+  ],
+  "author": "",
+  "license": "ISC"
+}

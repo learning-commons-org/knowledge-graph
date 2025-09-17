@@ -1,0 +1,24 @@
+{
+  "name": "compare-standards",
+  "version": "1.0.0",
+  "description": "Compare educational standards across different states and jurisdictions using Knowledge Graph datasets",
+  "main": "compare-standards.js",
+  "scripts": {
+    "start": "node compare-standards.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "arquero": "^8.0.3",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "education",
+    "standards",
+    "knowledge-graph",
+    "comparison",
+    "analysis"
+  ],
+  "author": "",
+  "license": "ISC"
+}
