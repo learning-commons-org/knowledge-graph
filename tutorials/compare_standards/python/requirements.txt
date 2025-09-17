@@ -1,0 +1,9 @@
+# Core data manipulation and analysis
+pandas>=2.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Optional: Enhanced data processing (uncomment if needed)
+# numpy>=1.24.0
+# scipy>=1.10.0

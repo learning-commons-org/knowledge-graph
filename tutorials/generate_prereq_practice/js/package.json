@@ -1,0 +1,25 @@
+{
+  "name": "generate-prereq-practice",
+  "version": "1.0.0",
+  "description": "Generate prerequisite practice questions using Knowledge Graph datasets",
+  "main": "generate-prereq-practice.js",
+  "scripts": {
+    "start": "node generate-prereq-practice.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "arquero": "^8.0.3",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "education",
+    "prerequisites",
+    "knowledge-graph",
+    "practice-questions",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC"
+}
