@@ -1,0 +1,15 @@
+# Validates PR title follows conventional commits
+name: conventional-commits
+
+on:
+  pull_request:
+    branches: main
+    types:
+      - edited
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  conventional_commit_title:
+    uses: learning-commons-org/shared-github-actions/.github/workflows/conventional-commits.yml@v1.2.0
