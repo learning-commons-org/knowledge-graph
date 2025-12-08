@@ -1,6 +1,6 @@
 # Changelog
 
-## Knowledge Graph v1.2.0
+## **Knowledge Graph [v1.2.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.1.0...v1.2.0) (2025-12-08)**
 
 **December 8, 2025**
 
