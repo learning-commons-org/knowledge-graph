@@ -1,13 +1,34 @@
 # Changelog
 
-## [1.3.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.2.0...v1.3.0) (2026-01-28)
+## **Knowledge Graph [v1.3.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.2.0...v1.3.0) (2026-01-28)**
 
+**January, 2026**
 
-### Features
+This release adds a new aligned state, makes the Illustrative Mathematics 360 curriculum’s scope and sequence available under CC-BY 4.0, and the Knowledge Graph is now available for download in newline delimited jsonl format with UTF-8 encoding.
 
-* v1-3-0 release ([#14](https://github.com/learning-commons-org/knowledge-graph/issues/14)) ([034abfb](https://github.com/learning-commons-org/knowledge-graph/commit/034abfbd784033b03ab64244688f0812524bf022))
+## **Updates**
 
-## Changelog
+### **Learning component aligned states**
+
+We've added alignment between learning components and standards for the following states:
+
+* Massachusetts
+
+### **Illustrative Mathematics scope and sequence (CC BY-4.0)**
+
+The scope and sequence for the Illustrative Mathematics 360 curriculum is now available under a CC BY-4.0 license. 
+
+### **Learner Variability Navigator**
+
+We’ve added the relevantToStandard relationship that links a Factor to a StandardFrameworkItem for Common Core ELA standards. 
+
+### **Graph-native JSON**
+
+The Knowledge graph data is available for download in newline delimited jsonl format with UTF-8 encoding.
+
+### **CSV deprecation**
+
+The Knowledge Graph can no longer be downloaded as CSV flat files from v1.3.0 onwards. Any CSV flat files that were previously downloaded will be unaffected.
 
 ## **Knowledge Graph [v1.2.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.1.0...v1.2.0) (2025-12-08)**
 
