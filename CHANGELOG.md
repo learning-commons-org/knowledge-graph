@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.3.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.2.0...v1.3.0) (2026-01-28)
+
+
+### Features
+
+* v1-3-0 release ([#14](https://github.com/learning-commons-org/knowledge-graph/issues/14)) ([034abfb](https://github.com/learning-commons-org/knowledge-graph/commit/034abfbd784033b03ab64244688f0812524bf022))
+
+## Changelog
+
 ## **Knowledge Graph [v1.2.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.1.0...v1.2.0) (2025-12-08)**
 
 **December 8, 2025**
