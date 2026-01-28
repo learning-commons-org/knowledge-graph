@@ -2,7 +2,7 @@
 
 ## **Knowledge Graph [v1.3.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.2.0...v1.3.0) (2026-01-28)**
 
-**January, 2026**
+**January 28, 2026**
 
 This release adds a new aligned state, makes the Illustrative Mathematics 360 curriculum’s scope and sequence available under CC-BY 4.0, and the Knowledge Graph is now available for download in newline delimited jsonl format with UTF-8 encoding.
 
