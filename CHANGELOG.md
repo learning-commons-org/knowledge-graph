@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.4.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.3.0...v1.4.0) (2026-01-28)
+
+
+### Features
+
+* initial upload of Knowledge Graph repository ([e59e3fa](https://github.com/learning-commons-org/knowledge-graph/commit/e59e3fa4524fe8f804e03ce7f85c52da23853158))
+* Update S3 links to version 1.1.0 ([#8](https://github.com/learning-commons-org/knowledge-graph/issues/8)) ([833b327](https://github.com/learning-commons-org/knowledge-graph/commit/833b327b9b8bc5c9674431f6d83619b3749b7423))
+* v1-3-0 release ([#14](https://github.com/learning-commons-org/knowledge-graph/issues/14)) ([034abfb](https://github.com/learning-commons-org/knowledge-graph/commit/034abfbd784033b03ab64244688f0812524bf022))
+* v1.2.0 updates ([#11](https://github.com/learning-commons-org/knowledge-graph/issues/11)) ([154652d](https://github.com/learning-commons-org/knowledge-graph/commit/154652d3aeba8d0ae8845345dec6f2f92b69830d))
+
+
+### Miscellaneous
+
+* Adding release-please automation and conventional commits to Knowledge Graph repository ([#4](https://github.com/learning-commons-org/knowledge-graph/issues/4)) ([79c8403](https://github.com/learning-commons-org/knowledge-graph/commit/79c8403c829ce51388da5c11d4a2d1338395079b))
+* fixing permissions issue in initial workflow push ([#5](https://github.com/learning-commons-org/knowledge-graph/issues/5)) ([3e55c64](https://github.com/learning-commons-org/knowledge-graph/commit/3e55c640d403d5f7cbe9ec349843dc1c2eafa788))
+* **main:** release 1.1.0 ([#9](https://github.com/learning-commons-org/knowledge-graph/issues/9)) ([c1b46fb](https://github.com/learning-commons-org/knowledge-graph/commit/c1b46fb670d2c44bae2ea56a96edda5fea8fb017))
+* **main:** release 1.2.0 ([#13](https://github.com/learning-commons-org/knowledge-graph/issues/13)) ([3171102](https://github.com/learning-commons-org/knowledge-graph/commit/3171102d4c3ce75c69aad1813ed8e88e3864c7ce))
+* **main:** release 1.3.0 ([#15](https://github.com/learning-commons-org/knowledge-graph/issues/15)) ([b103dcf](https://github.com/learning-commons-org/knowledge-graph/commit/b103dcf9b7fb42575a7bb6d2fbdddcc000a16b29))
+
+## Changelog
+
 ## **Knowledge Graph [v1.3.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.2.0...v1.3.0) (2026-01-28)**
 
 **January 28, 2026**
