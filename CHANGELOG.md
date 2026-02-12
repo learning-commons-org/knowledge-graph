@@ -4,6 +4,8 @@
 
 **February 12, 2026**
 
+This release adds new aligned states.
+
 ## **Updates**
 
 ### Learning component aligned states
