@@ -1,15 +1,31 @@
 # Changelog
 
-## [1.5.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.4.0...v1.5.0) (2026-02-27)
+## Knowledge Graph [v1.5.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.4.0...v1.5.0) (2026-02-26)
 
+**February 26, 2026**
 
-### Features
+### Learning component aligned states
 
-* v1.5 graph update ([#18](https://github.com/learning-commons-org/knowledge-graph/issues/18)) ([8c3c020](https://github.com/learning-commons-org/knowledge-graph/commit/8c3c0206d7bff044aea82d2fb66b813dc3d0337a))
+We’ve added alignments to learning components and crosswalks to Common Core for standards from:
 
-## Changelog
+* North Carolina
 
-## Knowledge Graph [1.4.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.3.0...v1.4.0) (2026-02-12)
+### Curriculum scope and sequence REST API endpoints
+
+We’ve introduced a new set of curriculum endpoints and expanded our academic standards lookup capabilities.
+
+**Curriculum**
+
+* New endpoints provide structured access to curriculum metadata for Illustrative Math’s IM360 scope and sequence  
+* Access courses, scope and sequence, lesson groupings (units/modules), lessons, activities, and assessments  
+* View academic standards aligned to lessons, activities, and assessments  
+* Note: instructional materials (lesson/activity/assessment content) are not included  
+
+**Academic Standards**
+
+* Added three new endpoints to retrieve lessons, activities, and assessments aligned to a specific academic standard by CASE UUID
+
+## Knowledge Graph [v1.4.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.3.0...v1.4.0) (2026-02-12)
 
 **February 12, 2026**
 
