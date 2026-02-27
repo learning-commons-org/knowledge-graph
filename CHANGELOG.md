@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.5.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.4.0...v1.5.0) (2026-02-27)
+
+
+### Features
+
+* v1.5 graph update ([#18](https://github.com/learning-commons-org/knowledge-graph/issues/18)) ([8c3c020](https://github.com/learning-commons-org/knowledge-graph/commit/8c3c0206d7bff044aea82d2fb66b813dc3d0337a))
+
+## Changelog
+
 ## Knowledge Graph [1.4.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.3.0...v1.4.0) (2026-02-12)
 
 **February 12, 2026**
