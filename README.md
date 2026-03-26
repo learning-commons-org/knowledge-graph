@@ -141,16 +141,16 @@ You can download the files through direct links or using curl commands.
 
 **Direct links**
 
-- [nodes.jsonl](https://cdn.learningcommons.org/knowledge-graph/v1.6.0/exports/nodes.jsonl?ref=github)
-- [relationships.jsonl](https://cdn.learningcommons.org/knowledge-graph/v1.6.0/exports/relationships.jsonl?ref=github)
+- [nodes.jsonl](https://cdn.learningcommons.org/knowledge-graph/v1.7.0/exports/nodes.jsonl?ref=github)
+- [relationships.jsonl](https://cdn.learningcommons.org/knowledge-graph/v1.7.0/exports/relationships.jsonl?ref=github)
 
 **Using curl commands**
 
 If you don't have curl installed, visit https://github.com/curl/curl for installation instructions.
 
 ```bash
-curl -L "https://cdn.learningcommons.org/knowledge-graph/v1.6.0/exports/nodes.jsonl?ref=gh_curl" -o nodes.jsonl
-curl -L "https://cdn.learningcommons.org/knowledge-graph/v1.6.0/exports/relationships.jsonl?ref=gh_curl" -o relationships.jsonl
+curl -L "https://cdn.learningcommons.org/knowledge-graph/v1.7.0/exports/nodes.jsonl?ref=gh_curl" -o nodes.jsonl
+curl -L "https://cdn.learningcommons.org/knowledge-graph/v1.7.0/exports/relationships.jsonl?ref=gh_curl" -o relationships.jsonl
 ```
 
 #### Querying with jq
