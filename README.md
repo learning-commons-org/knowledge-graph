@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://https://platform.learningcommons.org/apps/knowledge-graph/explorer" target="_blank">Try it in the Explorer</a>
    •
-  <a href="https://docs.learningcommons.org/knowledge-graphgetting-started/download-the-data/" target="_blank">Getting set up</a>
+  <a href="https://docs.learningcommons.org/knowledge-graphgetting-started/download-the-data/" target="_blank">Get set up</a>
 </p>
 
 
@@ -36,8 +36,8 @@ You can explore the Knowledge Graph in the [Knowledge Graph Explorer](https://pl
 
 You can access the Knowledge Graph data using:
 
-- **REST API**: Authenticate and make HTTP requests to retrieve academic standards directly. Best for applications that need real-time access.
-- **MCP server**: AI models can reliably work with academic standards, learning components, and learning progressions. They can resolve standards, decompose them into granular learning components, and trace progressions across standards. 
+- **[REST API](https://platform.learningcommons.org/api-keys)**: Authenticate and make HTTP requests to retrieve academic standards directly. Best for applications that need real-time access.
+- **[MCP server](https://platform.learningcommons.org/apps/knowledge-graph/mcp-server)**: AI models can reliably work with academic standards, learning components, and learning progressions. They can resolve standards, decompose them into granular learning components, and trace progressions across standards. 
 - **Local JSONL**: Download local JSONL files and query them directly. Best for offline access, custom processing, or complex queries.
 
 **Note:** The API and MCP server are in Early access and are actively evolving. Changes may occur as we expand capabilities and improve accuracy and reliability. Email [support@learningcommons.org](mailto:support@learningcommons.org)↗ with your feedback or issues.
