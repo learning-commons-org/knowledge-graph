@@ -68,7 +68,7 @@ Include your API key in the `x-api-key` header on every request:
 x-api-key: YOUR_API_KEY
 ```
 
-#### STEP 1: Get a standards framework identifier
+### STEP 1: Get a standards framework identifier
 
 Use your preferred HTTP client to send a GET request to the standards frameworks endpoint to get the CASE UUID for Multi-State Mathematics.
 
@@ -80,7 +80,7 @@ curl -X GET \
 
 You should receive a 200 response with the CCSS Math framework for Multi-State, including the framework name, jurisdiction, adoption status, and a `caseIdentifierUUID` (GUID). Copy the `caseIdentifierUUID` from the response for the next step.
 
-#### STEP 2: Retrieve academic standards
+### STEP 2: Retrieve academic standards
 
 Use the `caseIdentifierUUID` you copied from Step 1's response with the academic standards endpoint to retrieve the individual standards for that framework.
 
@@ -129,16 +129,16 @@ Example response:
 }
 ```
 
-### Local JSONL Files
+## Local JSONL Files
 
 The Knowledge Graph data is available for download in newline delimited JSONL format with UTF-8 encoding. The graph data is exported with `nodes.jsonl` representing the nodes of the knowledge graph and the `relationships.jsonl` file capturing the connections between nodes.
 
-#### Files
+### Files
 
 - `nodes.jsonl`: Contains graph node records, defining each node by a unique identifier, labels, and a set of associated properties.
 - `relationships.jsonl`: Contains graph relationship records, describing how nodes are connected, including the relationship type, properties, and the source and target nodes.
 
-#### Download options
+## Download options
 
 You can download the files through direct links or using curl commands.
 
@@ -156,7 +156,7 @@ curl -L "https://cdn.learningcommons.org/knowledge-graph/v1.7.0/exports/nodes.js
 curl -L "https://cdn.learningcommons.org/knowledge-graph/v1.7.0/exports/relationships.jsonl?ref=gh_curl" -o relationships.jsonl
 ```
 
-#### Querying with jq
+### Querying with jq
 
 One option for querying the JSONL files is to use [jq](https://jqlang.github.io/jq/). Example to extract Common Core math standards:
 
