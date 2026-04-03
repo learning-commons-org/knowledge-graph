@@ -169,7 +169,7 @@ This filters for nodes with:
 - **Jurisdiction:** `Multi-State` (Common Core)
 - **Academic Subject:** `Mathematics`
 
-## **Support & Feedback**
+## **Support & feedback**
 
 We want to hear from you. For questions or feedback, please [open an issue](https://github.com/learning-commons-org/knowledge-graph/issues) or reach out to us at support@learningcommons.org. 
 
