@@ -129,7 +129,7 @@ Example response:
 }
 ```
 
-## Local JSONL Files
+## Local JSONL files
 
 The Knowledge Graph data is available for download in newline delimited JSONL format with UTF-8 encoding. The graph data is exported with `nodes.jsonl` representing the nodes of the knowledge graph and the `relationships.jsonl` file capturing the connections between nodes.
 
@@ -138,7 +138,7 @@ The Knowledge Graph data is available for download in newline delimited JSONL fo
 - `nodes.jsonl`: Contains graph node records, defining each node by a unique identifier, labels, and a set of associated properties.
 - `relationships.jsonl`: Contains graph relationship records, describing how nodes are connected, including the relationship type, properties, and the source and target nodes.
 
-## Download options
+### Download options
 
 You can download the files through direct links or using curl commands.
 
