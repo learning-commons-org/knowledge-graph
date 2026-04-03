@@ -2,8 +2,6 @@
 
 <p align="center">
   <a href="https://platform.learningcommons.org/apps/knowledge-graph/explorer" target="_blank">Try it in the Explorer</a>
-   •
-  <a href="https://docs.learningcommons.org/knowledge-graph/getting-started/download-the-data/" target="_blank">Get set up</a>
 </p>
 
 
@@ -28,31 +26,33 @@ For complete setup instructions and usage examples, see the [full docs](https://
 | [tutorials/](./tutorials/) | Standalone example apps to demonstrate how Knowledge Graph data could be applied to solve different use cases |
 | [LICENSE](./LICENSE.md) | Open source license details |
 
-## **Try the Knowledge Graph**
+## **Explore the data**
 
 You can explore the Knowledge Graph in the [Knowledge Graph Explorer](https://platform.learningcommons.org/apps/knowledge-graph/explorer) on the Learning Commons Platform.
 
-##  **Quickstart**
+##  **Accessing Knowledge Graph**
 
 You can access the Knowledge Graph data using:
 
-- **[REST API](https://platform.learningcommons.org/api-keys)**: Authenticate and make HTTP requests to retrieve academic standards directly. Best for applications that need real-time access.
-- **[MCP server](https://platform.learningcommons.org/apps/knowledge-graph/mcp-server)**: AI models can reliably work with academic standards, learning components, and learning progressions. They can resolve standards, decompose them into granular learning components, and trace progressions across standards. 
+- **[REST API](https://platform.learningcommons.org/api-keys)**: Get an API key to Authenticate and make HTTP requests to retrieve academic standards directly. Best for applications that need real-time access.
+- **[MCP server](https://platform.learningcommons.org/apps/knowledge-graph/mcp-server)**: With the MCP server, AI models can reliably work with academic standards, learning components, and learning progressions. They can resolve standards, decompose them into granular learning components, and trace progressions across standards. 
 - **Local JSONL**: Download local JSONL files and query them directly. Best for offline access, custom processing, or complex queries.
 
 **Note:** The API and MCP server are in Early access and are actively evolving. Changes may occur as we expand capabilities and improve accuracy and reliability. Email [support@learningcommons.org](mailto:support@learningcommons.org)↗ with your feedback or issues.
 
-#### What you'll do
+## Quickstart
+
+### What you'll do
 
 - Authenticate using an API key
 - Get a standards framework identifier (CASE UUID) for Multi-State Mathematics
 - Retrieve a list of academic standards using that framework identifier
 
-#### What you'll need
+### What you'll need
 
 - An API key generated in the [Learning Commons Platform](https://platform.learningcommons.org/)↗
 
-#### Base URL
+### Base URL
 
 All REST API requests should be sent to:
 
@@ -60,7 +60,7 @@ All REST API requests should be sent to:
 https://api.learningcommons.org/knowledge-graph/v0
 ```
 
-#### Authentication
+### Authentication
 
 Include your API key in the `x-api-key` header on every request:
 
