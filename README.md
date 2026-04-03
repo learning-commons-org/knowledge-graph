@@ -34,7 +34,7 @@ You can explore the Knowledge Graph in the [Knowledge Graph Explorer](https://pl
 
 You can access the Knowledge Graph data using:
 
-- **[REST API](https://platform.learningcommons.org/api-keys)**: Get an API key to Authenticate and make HTTP requests to retrieve academic standards directly. Best for applications that need real-time access.
+- **[REST API](https://platform.learningcommons.org/api-keys)**: Get an API key to authenticate and make HTTP requests to retrieve academic standards directly. Best for applications that need real-time access.
 - **[MCP server](https://platform.learningcommons.org/apps/knowledge-graph/mcp-server)**: With the MCP server, AI models can reliably work with academic standards, learning components, and learning progressions. They can resolve standards, decompose them into granular learning components, and trace progressions across standards. 
 - **Local JSONL**: Download local JSONL files and query them directly. Best for offline access, custom processing, or complex queries.
 
