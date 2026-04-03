@@ -1,7 +1,9 @@
 <img style="width:100%" alt="knowledge_graph_banner" src="https://raw.githubusercontent.com/learning-commons-org/.github/refs/heads/main/assets/kg_hero.png" />
 
 <p align="center">
-  <a href="https://docs.learningcommons.org/knowledge-graph/v1-4-0/getting-started/download-the-data/" target="_blank">Getting set up</a>
+  <a href="https://https://platform.learningcommons.org/apps/knowledge-graph/explorer" target="_blank">Try it in the Explorer</a>
+   •
+  <a href="https://docs.learningcommons.org/knowledge-graphgetting-started/download-the-data/" target="_blank">Getting set up</a>
 </p>
 
 
@@ -13,7 +15,7 @@ Key use cases include:
 * **Standards alignment**: Identify how your content supports specific academic standards and create content rooted in learner competencies across all key subjects  
 * **Instructional planning**: Create dependencies, learning progressions, and content coverage, starting with math in the Common Core State Standards  
 * **Compare state standards**: Adapt content aligned to one state standard to other states, initially in math across Common Core State Standards and 15+ additional states  
-* **Curriculum alignment:** Align your content or create additional materials aligned to curriculum (private-beta access only \- details below on how to join)
+* **Curriculum alignment:** Align your content or create additional materials aligned to curriculum (This requires access to a gated dataset. email [support@learningcommons.org](mailto:support@learningcommons.org) for more information.)
 
 Knowledge Graph is distributed as graph-native JSONL export files, making it accessible without specialized infrastructure. These files directly represent the underlying graph model, enabling developers to work with the data in graph databases, while remaining easy to ingest with standard data-processing tools. Developers can load the data into graph databases for relationship-centric querying or transform it for use in relational databases and data pipelines. This structure enables rich querying and supports AI-enhanced educational applications.
 
@@ -26,17 +28,19 @@ For complete setup instructions and usage examples, see the [full docs](https://
 | [tutorials/](./tutorials/) | Standalone example apps to demonstrate how Knowledge Graph data could be applied to solve different use cases |
 | [LICENSE](./LICENSE.md) | Open source license details |
 
-##  **Quick Start**
+## **Try the Knowledge Graph**
+
+You can explore the Knowledge Graph in the [Knowledge Graph Explorer](https://platform.learningcommons.org/apps/knowledge-graph/explorer) on the Learning Commons Platform.
+
+##  **Quickstart**
 
 You can access the Knowledge Graph data using:
 
-- **REST API**: Authenticate and make HTTP requests to retrieve academic standards directly. Best for applications that need real-time access. *(Currently available only to private beta users)*
-- **MCP Server**: AI models can reliably work with academic standards, learning components, and learning progressions. They can resolve standards, decompose them into granular learning components, and trace progressions across standards. *(Currently available only to private beta users)*
-- **Local JSONL**: Download local JSONL files and query them directly. Best for offline access, custom processing, or complex queries. *(Publicly available)*
+- **REST API**: Authenticate and make HTTP requests to retrieve academic standards directly. Best for applications that need real-time access. (mailto:support@learningcommons.org)↗ with your feedback or issues.
+- **MCP server**: AI models can reliably work with academic standards, learning components, and learning progressions. They can resolve standards, decompose them into granular learning components, and trace progressions across standards. 
+- **Local JSONL**: Download local JSONL files and query them directly. Best for offline access, custom processing, or complex queries.
 
-### REST API
-
-> **Note:** The API is in limited early release and is only available to some private beta users. Because the API is an early release, current users should expect occasional breaking changes.
+**Note:** The API and MCP server are in Early access and are actively evolving. Changes may occur as we expand capabilities and improve accuracy and reliability. Email [support@learningcommons.org](mailto:support@learningcommons.org)↗ with your feedback or issues.
 
 #### What you'll do
 
@@ -46,8 +50,7 @@ You can access the Knowledge Graph data using:
 
 #### What you'll need
 
-- A Learning Commons Platform account
-- An API key generated in the Learning Commons Platform
+- An API key generated in the [Learning Commons Platform](https://platform.learningcommons.org/)↗
 
 #### Base URL
 
@@ -170,19 +173,10 @@ This filters for nodes with:
 
 We want to hear from you. For questions or feedback, please [open an issue](https://github.com/learning-commons-org/knowledge-graph/issues) or reach out to us at support@learningcommons.org. 
 
-## **Partner with us**
+## **Stay up to date**
+Sign up for a <a href="https://platform.learningcommons.org" target="_blank">Learning Commons account</a> to receive news about the latest Knowledge Graph updates, and releases.
 
-**Learn more about our Knowledge Graph or join our private beta to access:**
-
-* Full curriculum-aligned datasets
-
-* Early access to new features and APIs
-
-* Personalized support from the Knowledge Graph team
-
-Contact us [here](https://learningcommons.org/contact/?utm_source=github&utm_medium=kg&utm_campaign=privatebeta).
-
-## **Reporting Security Issues**
+## **Reporting security issues**
 
 If you believe you have found a security issue, please responsibly disclose by contacting us at [security@learningcommons.org](mailto:security@learningcommons.org).
 
