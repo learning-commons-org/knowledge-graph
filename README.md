@@ -30,7 +30,7 @@ For complete setup instructions and usage examples, see the [full docs](https://
 
 You can explore the Knowledge Graph in the [Knowledge Graph Explorer](https://platform.learningcommons.org/apps/knowledge-graph/explorer) on the Learning Commons Platform.
 
-##  **Accessing Knowledge Graph**
+##  **Access Knowledge Graph**
 
 You can access the Knowledge Graph data using:
 
