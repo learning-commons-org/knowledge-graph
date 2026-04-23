@@ -1,13 +1,53 @@
 # Changelog
 
-## [1.7.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.6.0...v1.7.0) (2026-04-23)
+## Knowledge Graph [v1.8.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.7.0...v1.8.0) (2026-04-23)
 
+**March 26, 2026**
 
-### Features
+### API updates
+Added a curriculum dependency map endpoint for getting dependencies and prerequisites between Lesson Groupings.
 
-* update download links and curl commands to v1.8.0 ([#25](https://github.com/learning-commons-org/knowledge-graph/issues/25)) ([07c9ffb](https://github.com/learning-commons-org/knowledge-graph/commit/07c9ffbb4de518f0fc9c7271dc182f98777137d7))
+### Data v1.8.0
+#### Learning component aligned states
 
-## Changelog
+We've added alignments to learning components and crosswalks to Common Core for standards from:
+
+* Alabama
+* Arkansas
+* Missouri
+* North Dakota
+* Oregon
+* Wyoming
+
+We also completed the alignments to learning components from Texas for grades K-1, which completes all grades for Texas.
+
+## Knowledge Graph [v1.7.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.6.0...v1.7.0) (2026-03-26)
+
+**March 26, 2026**
+
+### Learning component aligned states
+
+We’ve added alignments to learning components and crosswalks to Common Core for standards from:
+
+* Georgia
+* Iowa
+* Kentucky
+* Tennessee
+* West Virginia
+
+### Data quality improvements
+
+We’ve updated some of the alignments between learning components and the state standards from the following states to address inconsistencies:
+
+* Utah
+* South Dakota
+* Mississippi
+* Idaho
+* Ohio
+
+### Addition of `publisherIdentifier`
+
+We added a new property `publisherIdentifier` for content nodes in Illustrative Mathematics. This property contains the ID that was originally assigned by Illustrative Mathematics. The field is available in both flat file downloads and REST API responses.
 
 ## Knowledge Graph [v1.6.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.5.0...v1.6.0) (2026-03-12)
 
