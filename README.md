@@ -1,4 +1,4 @@
-<img style="width:100%" alt="knowledge_graph_banner" src="https://raw.githubusercontent.com/learning-commons-org/.github/refs/heads/main/assets/kg_hero_2.jpg" />
+<img style="width:100%" alt="Knowledge Graph banner logo" src="https://raw.githubusercontent.com/learning-commons-org/.github/refs/heads/main/assets/kg_hero_2.jpg" />
 
 <p align="center">
   <a href="https://docs.learningcommons.org/knowledge-graph/getting-started/quickstart" target="_blank">Getting set up</a>
