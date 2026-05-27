@@ -1,13 +1,36 @@
 # Changelog
 
-## [1.8.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.8.0...v1.8.1) (2026-05-27)
+## Knowledge Graph [v1.8.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.8.0...v1.9.0) (2026-05-27)
 
+**May 27, 2026**
+
+### Data v1.9.0
+
+#### English Language Arts Learning Components
+
+We've added Learning Components for English Language Arts, authored by Choice-filled Lives Network. The first release covers grades K–2 and is aligned to Common Core State Standards for ELA along with ELA standards from 12 states. Coverage now spans both Mathematics and English Language Arts.
+
+#### Learning Component aligned states
+
+We've added alignments to Learning Components for ELA standards from:
+  - Connecticut
+  - Delaware
+  - Illinois
+  - Maryland
+  - Michigan
+  - Mississippi
+  - Nevada
+  - New Hampshire
+  - Vermont
+  - Washington
+  - Washington, D.C.
+  - Wyoming
+
+## [1.8.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.8.0...v1.8.1) (2026-05-27)
 
 ### Miscellaneous
 
 * Update banner image in README.md ([#27](https://github.com/learning-commons-org/knowledge-graph/issues/27)) ([4bb557e](https://github.com/learning-commons-org/knowledge-graph/commit/4bb557e3f797ef38e647a6852d9bd3240d622f12))
-
-## Changelog
 
 ## Knowledge Graph [v1.8.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.7.0...v1.8.0) (2026-04-23)
 
