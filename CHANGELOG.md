@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.8.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.8.0...v1.8.1) (2026-05-27)
+
+
+### Miscellaneous
+
+* Update banner image in README.md ([#27](https://github.com/learning-commons-org/knowledge-graph/issues/27)) ([4bb557e](https://github.com/learning-commons-org/knowledge-graph/commit/4bb557e3f797ef38e647a6852d9bd3240d622f12))
+
+## Changelog
+
 ## Knowledge Graph [v1.8.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.7.0...v1.8.0) (2026-04-23)
 
 **March 26, 2026**
