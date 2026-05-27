@@ -1,6 +1,6 @@
 # Changelog
 
-## Knowledge Graph [v1.8.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.8.0...v1.9.0) (2026-05-27)
+## Knowledge Graph [v1.9.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.8.0...v1.9.0) (2026-05-27)
 
 **May 27, 2026**
 
