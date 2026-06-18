@@ -1,5 +1,32 @@
 # Changelog
 
+## Knowledge Graph [v1.10.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.9.0...v1.10.0) (2026-06-18)
+
+**June 18, 2026**
+
+### Data v1.10.0
+
+#### English Language Arts (ELA) Learning Components
+
+License and attribution statement values have been updated for each individual row.
+
+#### Illustrative Mathematics
+
+Improved data quality:
+
+- Trimmed whitespace from fields
+- Fixed `inLanguage` and `gradeLevel` fields where they didn't match `ENUM`
+- Removed duplicate `hasChild` and `hasReference` relationships
+- Updated `mutuallyExclusiveWith` relationship to always be bi-directional
+- Added missing `Material` entities
+
+#### Standards fixes
+
+- Montana Social Studies - Several standards had `normalizedStatementType` incorrectly set to null
+- New York Math - One standard had `statementType` and `normalizedStatementType` incorrectly set to null and was missing some Learning Component aligments
+- Indiana Science - Some standards had `subject` incorrectly set to "Other"
+- Removed a few Learning Components that were duplicated and causing inaccurate Jaccard scores for state Standards Crosswalks
+
 ## Knowledge Graph [v1.9.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.8.0...v1.9.0) (2026-05-27)
 
 **May 27, 2026**
