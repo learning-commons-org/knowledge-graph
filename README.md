@@ -180,7 +180,7 @@ We want to hear from you. For questions or feedback, please [open an issue](http
 
 * Personalized support from the Knowledge Graph team
 
-Contact us [here](https://learningcommons.org/contact/?utm_source=github&utm_medium=kg&utm_campaign=privatebeta).
+Contact us [here](https://learningcommons.org/contact/?utm_source=github&utm_medium=kg).
 
 ## **Reporting Security Issues**
 
