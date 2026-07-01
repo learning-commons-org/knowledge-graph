@@ -1,5 +1,17 @@
 # Changelog
 
+## Knowledge Graph [v1.10.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.10.0...v1.10.1) (2026-07-01)
+
+**July 01, 2026**
+
+### Data v1.10.1
+
+#### Fixed missing math Crosswalks
+
+Restored math Standards Crosswalks between Texas and CCSS that were incorrectly removed in v1.9.0. Both the JSONL downloads and REST API have been updated. No other data was affected.
+
+If you downloaded the Knowledge Graph JSONL files or queried the standards crosswalks during v1.9.0 or v1.10.0, re-download or re-query to pick up the restored data.
+
 ## Knowledge Graph [v1.10.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.9.0...v1.10.0) (2026-06-18)
 
 **June 18, 2026**
