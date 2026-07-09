@@ -1,5 +1,19 @@
 # Changelog
 
+## Knowledge Graph [v1.11.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.10.1...v1.11.0) (2026-07-09)
+
+**July 09, 2026**
+
+### Data v1.11.0
+
+#### Added and updated [Academic Standards](/knowledge-graph/graph-reference/academic-standards) fields
+
+- [`StandardsFrameworkItem`](/knowledge-graph/graph-reference/academic-standards#standardsframeworkitem)
+  - Added optional `alternateStatementCode` field for statement codes that are not included in the [CASE specification](https://www.imsglobal.org/activity/case)&nbsp;↗ but are commonly used by publishers, teachers, and other edtech practitioners – Currently populated for [Texas Essential Knowledge and Skills (TEKS)](https://tea.texas.gov/curriculum-and-instruction/texas-essential-knowledge-and-skills-teks) and various other states' standards
+- [`StandardsFramework`](/knowledge-graph/graph-reference/academic-standards#standardsframework) and [`StandardsFrameworkItem`](/knowledge-graph/graph-reference/academic-standards#standardsframeworkitem)
+  - Updated `author` and `attributionStatement` fields to include mention of the state
+  - Added `isCurrent` field that indicates whether the record is the most up-to-date version for the state-subject pair
+
 ## Knowledge Graph [v1.10.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.10.0...v1.10.1) (2026-07-01)
 
 **July 01, 2026**
