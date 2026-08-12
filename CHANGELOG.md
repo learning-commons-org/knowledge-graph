@@ -1,5 +1,29 @@
 # Changelog
 
+## Knowledge Graph [v1.12.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.11.0...v1.12.0) (2026-08-12)
+
+**August 12, 2026**
+
+### v1.12.0
+
+- Added [Carnegie Skills Progressions](/knowledge-graph/datasets/carnegie-skills-progressions) dataset
+  - Employer-recognized skills progressions for high school students
+  - Sourced from the [Carnegie Foundation for the Advancement of Teaching]([https://www.carnegiefoundation.org/)&nbsp;↗](https://www.carnegiefoundation.org/)&nbsp;%E2%86%97) and [ETS]([https://www.ets.org/)&nbsp;↗'s](https://www.ets.org/)&nbsp;%E2%86%97's) _Skills Progressions, Vol. 1_
+- Added [XQ Competencies](/knowledge-graph/datasets/xq-competencies) dataset
+  - Competencies for high school students
+  - Sourced from the [XQ Institute]([https://xqsuperschool.org/)&nbsp;↗'s](https://xqsuperschool.org/)&nbsp;%E2%86%97's) _XQ Competencies_
+- Updated [US academic standards](/knowledge-graph/datasets/us-academic-standards) from <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> data
+  - Refreshed existing standards frameworks' content
+  - Added new standards frameworks with new UUIDs and `isCurrent=true`
+
+      - New frameworks are not yet aligned with [Learning
+        components](/knowledge-graph/schema-reference/learning-components).
+        Currently, all [Learning components](/knowledge-graph/schema-reference/learning-components) → [Standards](/knowledge-graph/schema-reference/standards) alignments still reference the old standards.
+  - Deprecated old standards frameworks with `isCurrent=false` (preserved existing relationships)
+  - Removed `isCurrent` from [`StandardsFrameworkItem`](/knowledge-graph/schema-reference/standards#standardsframeworkitem) (remains on [`StandardsFramework`](/knowledge-graph/schema-reference/standards#standardsframework))
+  - Updated [`adoptionStatus`](/knowledge-graph/schema-reference/standards#standardsframework) to reflect <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> values
+  - Updated [`gradeLevel`](/knowledge-graph/schema-reference/standards#standardsframeworkitem) values to match <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> source values
+
 ## Knowledge Graph [v1.11.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.10.1...v1.11.0) (2026-07-09)
 
 **July 09, 2026**
@@ -78,39 +102,6 @@ We've added alignments to Learning Components for ELA standards from:
   - Washington
   - Washington, D.C.
   - Wyoming
-
-## [1.13.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.12.0...v1.13.0) (2026-08-12)
-
-
-### Features
-
-* initial upload of Knowledge Graph repository ([e59e3fa](https://github.com/learning-commons-org/knowledge-graph/commit/e59e3fa4524fe8f804e03ce7f85c52da23853158))
-* update download links and curl commands to v1.8.0 ([#25](https://github.com/learning-commons-org/knowledge-graph/issues/25)) ([07c9ffb](https://github.com/learning-commons-org/knowledge-graph/commit/07c9ffbb4de518f0fc9c7271dc182f98777137d7))
-* Update links and curl commands to version 1.6.0 ([#20](https://github.com/learning-commons-org/knowledge-graph/issues/20)) ([a05fedf](https://github.com/learning-commons-org/knowledge-graph/commit/a05fedf47e2c256fd2950d411ac5ea882062fedf))
-* Update S3 links to version 1.1.0 ([#8](https://github.com/learning-commons-org/knowledge-graph/issues/8)) ([833b327](https://github.com/learning-commons-org/knowledge-graph/commit/833b327b9b8bc5c9674431f6d83619b3749b7423))
-* v1-3-0 release ([#14](https://github.com/learning-commons-org/knowledge-graph/issues/14)) ([034abfb](https://github.com/learning-commons-org/knowledge-graph/commit/034abfbd784033b03ab64244688f0812524bf022))
-* v1.2.0 updates ([#11](https://github.com/learning-commons-org/knowledge-graph/issues/11)) ([154652d](https://github.com/learning-commons-org/knowledge-graph/commit/154652d3aeba8d0ae8845345dec6f2f92b69830d))
-* v1.5 graph update ([#18](https://github.com/learning-commons-org/knowledge-graph/issues/18)) ([8c3c020](https://github.com/learning-commons-org/knowledge-graph/commit/8c3c0206d7bff044aea82d2fb66b813dc3d0337a))
-
-
-### Miscellaneous
-
-* Adding release-please automation and conventional commits to Knowledge Graph repository ([#4](https://github.com/learning-commons-org/knowledge-graph/issues/4)) ([79c8403](https://github.com/learning-commons-org/knowledge-graph/commit/79c8403c829ce51388da5c11d4a2d1338395079b))
-* fixing permissions issue in initial workflow push ([#5](https://github.com/learning-commons-org/knowledge-graph/issues/5)) ([3e55c64](https://github.com/learning-commons-org/knowledge-graph/commit/3e55c640d403d5f7cbe9ec349843dc1c2eafa788))
-* **main:** release 1.1.0 ([#9](https://github.com/learning-commons-org/knowledge-graph/issues/9)) ([c1b46fb](https://github.com/learning-commons-org/knowledge-graph/commit/c1b46fb670d2c44bae2ea56a96edda5fea8fb017))
-* **main:** release 1.10.0 ([#34](https://github.com/learning-commons-org/knowledge-graph/issues/34)) ([52e7dca](https://github.com/learning-commons-org/knowledge-graph/commit/52e7dca856f899e6c85c4da51fc947d91afa3694))
-* **main:** release 1.11.0 ([#39](https://github.com/learning-commons-org/knowledge-graph/issues/39)) ([dcf4549](https://github.com/learning-commons-org/knowledge-graph/commit/dcf4549dcdf5ce1dada8b05f04c91068ac58adac))
-* **main:** release 1.2.0 ([#13](https://github.com/learning-commons-org/knowledge-graph/issues/13)) ([3171102](https://github.com/learning-commons-org/knowledge-graph/commit/3171102d4c3ce75c69aad1813ed8e88e3864c7ce))
-* **main:** release 1.3.0 ([#15](https://github.com/learning-commons-org/knowledge-graph/issues/15)) ([b103dcf](https://github.com/learning-commons-org/knowledge-graph/commit/b103dcf9b7fb42575a7bb6d2fbdddcc000a16b29))
-* **main:** release 1.4.0 ([#16](https://github.com/learning-commons-org/knowledge-graph/issues/16)) ([90c2222](https://github.com/learning-commons-org/knowledge-graph/commit/90c2222aa232b7a33d6337b3f44b7198a90df4bf))
-* **main:** release 1.5.0 ([#19](https://github.com/learning-commons-org/knowledge-graph/issues/19)) ([8a13bad](https://github.com/learning-commons-org/knowledge-graph/commit/8a13bad70e02cdd9771f8ff2d2265ddf3d7b5849))
-* **main:** release 1.6.0 ([#21](https://github.com/learning-commons-org/knowledge-graph/issues/21)) ([a8f84e2](https://github.com/learning-commons-org/knowledge-graph/commit/a8f84e2dd0b4df2ac10b6548af2933e10560e7be))
-* **main:** release 1.8.0 ([#26](https://github.com/learning-commons-org/knowledge-graph/issues/26)) ([e0b8e96](https://github.com/learning-commons-org/knowledge-graph/commit/e0b8e960c08d73332a92c95af188ee7d3031c40e))
-* **main:** release 1.9.0 ([#28](https://github.com/learning-commons-org/knowledge-graph/issues/28)) ([b44dfed](https://github.com/learning-commons-org/knowledge-graph/commit/b44dfedcc01e838f05f3ba5fca1d7a113132a8c2))
-* Update banner image in README.md ([#27](https://github.com/learning-commons-org/knowledge-graph/issues/27)) ([4bb557e](https://github.com/learning-commons-org/knowledge-graph/commit/4bb557e3f797ef38e647a6852d9bd3240d622f12))
-* Update CHANGELOG for Knowledge Graph v1.10.1 ([#38](https://github.com/learning-commons-org/knowledge-graph/issues/38)) ([7c6f9ca](https://github.com/learning-commons-org/knowledge-graph/commit/7c6f9ca61984121d714ac6e1811527ae3854a24c))
-* update download links to version 1.11.0 ([#40](https://github.com/learning-commons-org/knowledge-graph/issues/40)) ([49adf29](https://github.com/learning-commons-org/knowledge-graph/commit/49adf2983bd205bdc0f40631e0d9f89d16adf254))
-* update download links to version 1.12.0 ([#41](https://github.com/learning-commons-org/knowledge-graph/issues/41)) ([7176dea](https://github.com/learning-commons-org/knowledge-graph/commit/7176dea7a441ea6300fde77e721539685ae283fe))
 
 ## [1.8.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.8.0...v1.8.1) (2026-05-27)
 
