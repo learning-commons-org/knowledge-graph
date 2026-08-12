@@ -4,21 +4,19 @@
 
 **August 12, 2026**
 
-### v1.12.0
+### Data v1.12.0
 
 - Added [Carnegie Skills Progressions](/knowledge-graph/datasets/carnegie-skills-progressions) dataset
   - Employer-recognized skills progressions for high school students
-  - Sourced from the [Carnegie Foundation for the Advancement of Teaching]([https://www.carnegiefoundation.org/)&nbsp;↗](https://www.carnegiefoundation.org/)&nbsp;%E2%86%97) and [ETS]([https://www.ets.org/)&nbsp;↗'s](https://www.ets.org/)&nbsp;%E2%86%97's) _Skills Progressions, Vol. 1_
+  - Sourced from the [Carnegie Foundation for the Advancement of Teaching](https://www.carnegiefoundation.org/) and [ETS](https://www.ets.org/)&nbsp;↗'s _Skills Progressions, Vol. 1_
 - Added [XQ Competencies](/knowledge-graph/datasets/xq-competencies) dataset
   - Competencies for high school students
-  - Sourced from the [XQ Institute]([https://xqsuperschool.org/)&nbsp;↗'s](https://xqsuperschool.org/)&nbsp;%E2%86%97's) _XQ Competencies_
+  - Sourced from the [XQ Institute](https://xqsuperschool.org/)&nbsp;↗'s _XQ Competencies_
 - Updated [US academic standards](/knowledge-graph/datasets/us-academic-standards) from <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> data
   - Refreshed existing standards frameworks' content
   - Added new standards frameworks with new UUIDs and `isCurrent=true`
-
-      - New frameworks are not yet aligned with [Learning
-        components](/knowledge-graph/schema-reference/learning-components).
-        Currently, all [Learning components](/knowledge-graph/schema-reference/learning-components) → [Standards](/knowledge-graph/schema-reference/standards) alignments still reference the old standards.
+      - New frameworks are not yet aligned with [Learning components](/knowledge-graph/schema-reference/learning-components).
+         Currently, all [Learning components](/knowledge-graph/schema-reference/learning-components) → [Standards](/knowledge-graph/schema-reference/standards) alignments still reference the old standards.
   - Deprecated old standards frameworks with `isCurrent=false` (preserved existing relationships)
   - Removed `isCurrent` from [`StandardsFrameworkItem`](/knowledge-graph/schema-reference/standards#standardsframeworkitem) (remains on [`StandardsFramework`](/knowledge-graph/schema-reference/standards#standardsframework))
   - Updated [`adoptionStatus`](/knowledge-graph/schema-reference/standards#standardsframework) to reflect <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> values
