@@ -6,21 +6,21 @@
 
 ### Data v1.12.0
 
-- Added [Carnegie Skills Progressions](/knowledge-graph/datasets/carnegie-skills-progressions) dataset
+- Added [Carnegie Skills Progressions](https://docs.learningcommons.org/knowledge-graph/datasets/carnegie-skills-progressions) dataset
   - Employer-recognized skills progressions for high school students
   - Sourced from the [Carnegie Foundation for the Advancement of Teaching](https://www.carnegiefoundation.org/) and [ETS](https://www.ets.org/)&nbsp;↗'s _Skills Progressions, Vol. 1_
-- Added [XQ Competencies](/knowledge-graph/datasets/xq-competencies) dataset
+- Added [XQ Competencies](https://docs.learningcommons.org/knowledge-graph/datasets/xq-competencies) dataset
   - Competencies for high school students
   - Sourced from the [XQ Institute](https://xqsuperschool.org/)&nbsp;↗'s _XQ Competencies_
-- Updated [US academic standards](/knowledge-graph/datasets/us-academic-standards) from <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> data
+- Updated [US academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/us-academic-standards) from <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> data
   - Refreshed existing standards frameworks' content
   - Added new standards frameworks with new UUIDs and `isCurrent=true`
-      - New frameworks are not yet aligned with [Learning components](/knowledge-graph/schema-reference/learning-components).
-         Currently, all [Learning components](/knowledge-graph/schema-reference/learning-components) → [Standards](/knowledge-graph/schema-reference/standards) alignments still reference the old standards.
+      - New frameworks are not yet aligned with [Learning components](https://docs.learningcommons.org/knowledge-graph/schema-reference/learning-components).
+         Currently, all [Learning components](https://docs.learningcommons.org/knowledge-graph/schema-reference/learning-components) → [Standards](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards) alignments still reference the old standards.
   - Deprecated old standards frameworks with `isCurrent=false` (preserved existing relationships)
-  - Removed `isCurrent` from [`StandardsFrameworkItem`](/knowledge-graph/schema-reference/standards#standardsframeworkitem) (remains on [`StandardsFramework`](/knowledge-graph/schema-reference/standards#standardsframework))
-  - Updated [`adoptionStatus`](/knowledge-graph/schema-reference/standards#standardsframework) to reflect <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> values
-  - Updated [`gradeLevel`](/knowledge-graph/schema-reference/standards#standardsframeworkitem) values to match <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> source values
+  - Removed `isCurrent` from [`StandardsFrameworkItem`](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards#standardsframeworkitem) (remains on [`StandardsFramework`](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards#standardsframework))
+  - Updated [`adoptionStatus`](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards#standardsframework) to reflect <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> values
+  - Updated [`gradeLevel`](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards#standardsframeworkitem) values to match <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> source values
 
 ## Knowledge Graph [v1.11.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.10.1...v1.11.0) (2026-07-09)
 
@@ -30,9 +30,9 @@
 
 #### Added and updated [Academic Standards](/knowledge-graph/graph-reference/academic-standards) fields
 
-- [`StandardsFrameworkItem`](/knowledge-graph/graph-reference/academic-standards#standardsframeworkitem)
+- [`StandardsFrameworkItem`](https://docs.learningcommons.org/knowledge-graph/graph-reference/academic-standards#standardsframeworkitem)
   - Added optional `alternateStatementCode` field for statement codes that are not included in the [CASE specification](https://www.imsglobal.org/activity/case)&nbsp;↗ but are commonly used by publishers, teachers, and other edtech practitioners – Currently populated for [Texas Essential Knowledge and Skills (TEKS)](https://tea.texas.gov/curriculum-and-instruction/texas-essential-knowledge-and-skills-teks) and various other states' standards
-- [`StandardsFramework`](/knowledge-graph/graph-reference/academic-standards#standardsframework) and [`StandardsFrameworkItem`](/knowledge-graph/graph-reference/academic-standards#standardsframeworkitem)
+- [`StandardsFramework`](https://docs.learningcommons.org/knowledge-graph/graph-reference/academic-standards#standardsframework) and [`StandardsFrameworkItem`](https://docs.learningcommons.org/knowledge-graph/graph-reference/academic-standards#standardsframeworkitem)
   - Updated `author` and `attributionStatement` fields to include mention of the state
   - Added `isCurrent` field that indicates whether the record is the most up-to-date version for the state-subject pair
 
