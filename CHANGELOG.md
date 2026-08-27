@@ -1,5 +1,22 @@
 # Changelog
 
+## Knowledge Graph [v1.13.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.12.0...v1.13.0) (2026-08-27)
+
+**August 27, 2026**
+
+### Data v1.13.0
+
+- Updated the [US academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/us-academic-standards) dataset from <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> data
+  - Added new standards frameworks for Iowa (Social Studies), Maryland (Social Studies), Minnesota (Mathematics), Minnesota (Social Studies), Montana (<Tooltip tip="English Language Arts">ELA</Tooltip>), Oklahoma (Science), Oregon (Social Science), and South Dakota (<Tooltip tip="English Language Arts">ELA</Tooltip>)
+  - Updated all superseded frameworks with `isCurrent=false` (existing relationships to other entities preserved)
+  - Updated [`adoptionStatus`](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards#standardsframework) for Alabama Science (2023) from "Pending Implementation" to "Adopted"
+- Aligned [Math learning components](https://docs.learningcommons.org/knowledge-graph/datasets/math-learning-components) to [US academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/us-academic-standards) for Arizona and Virginia, with [Standards crosswalks](https://docs.learningcommons.org/knowledge-graph/datasets/standards-crosswalks) to <Tooltip tip="Common Core State Standards">CCSS</Tooltip>
+- Expanded [Math learning components](https://docs.learningcommons.org/knowledge-graph/datasets/math-learning-components) alignments to [US academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/us-academic-standards) for Arkansas
+- Clarified 20 [Math learning components](https://docs.learningcommons.org/knowledge-graph/datasets/math-learning-components) descriptions — added missing units, specified time intervals to the nearest 5 minutes, and corrected typos
+- Fixed [US academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/us-academic-standards) data issues
+  - North Dakota (<Tooltip tip="English Language Arts">ELA</Tooltip>) — Incorrect `statementType` and `normalizedStatementType` for a standard
+  - Ohio (<Tooltip tip="English Language Arts">ELA</Tooltip>) — Incorrect `statementType` and `normalizedStatementType` for a standard
+
 ## Knowledge Graph [v1.12.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.11.0...v1.12.0) (2026-08-12)
 
 **August 12, 2026**
@@ -100,12 +117,6 @@ We've added alignments to Learning Components for ELA standards from:
   - Washington
   - Washington, D.C.
   - Wyoming
-
-## [1.8.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.8.0...v1.8.1) (2026-05-27)
-
-### Miscellaneous
-
-* Update banner image in README.md ([#27](https://github.com/learning-commons-org/knowledge-graph/issues/27)) ([4bb557e](https://github.com/learning-commons-org/knowledge-graph/commit/4bb557e3f797ef38e647a6852d9bd3240d622f12))
 
 ## Knowledge Graph [v1.8.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.7.0...v1.8.0) (2026-04-23)
 
