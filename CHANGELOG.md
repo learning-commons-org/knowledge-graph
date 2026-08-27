@@ -101,6 +101,13 @@ We've added alignments to Learning Components for ELA standards from:
   - Washington, D.C.
   - Wyoming
 
+## [1.12.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.12.0...v1.12.1) (2026-08-27)
+
+
+### Bug Fixes
+
+* Revise CHANGELOG for v1.12.0 updates ([#43](https://github.com/learning-commons-org/knowledge-graph/issues/43)) ([7835f2d](https://github.com/learning-commons-org/knowledge-graph/commit/7835f2dc13d91fda0b1d5f8ca3699946bcf11282))
+
 ## [1.8.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.8.0...v1.8.1) (2026-05-27)
 
 ### Miscellaneous
