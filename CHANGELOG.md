@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.13.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.13.0...v1.13.1) (2026-08-31)
+
+
+### Miscellaneous
+
+* update v1.13 release notes ([#47](https://github.com/learning-commons-org/knowledge-graph/issues/47)) ([d8535a0](https://github.com/learning-commons-org/knowledge-graph/commit/d8535a0bcfee03936f54645c2e33139ccee68948))
+
+## Changelog
+
 ## Knowledge Graph [v1.13.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.12.0...v1.13.0) (2026-08-27)
 
 **August 27, 2026**
