@@ -6,11 +6,11 @@
 
 ### Data v1.13.0
 
-- Updated the [US academic standards](/knowledge-graph/datasets/us-academic-standards) dataset from <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> data
+- Updated the [US academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/us-academic-standards) dataset from <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> data
   - Added new standards frameworks for Iowa (Social Studies), Maryland (Social Studies), Minnesota (Mathematics), Minnesota (Social Studies), Montana (<Tooltip tip="English Language Arts">ELA</Tooltip>), Oklahoma (Science), Oregon (Social Science), and South Dakota (<Tooltip tip="English Language Arts">ELA</Tooltip>)
   - Any superseded frameworks have `isCurrent=false` (existing relationships to other entities preserved)
-  - Updated [`adoptionStatus`](/knowledge-graph/schema-reference/standards#standardsframework) for Alabama Science (2023) from "Pending Implementation" to "Adopted"
-- Fixed [US academic standards](/knowledge-graph/datasets/us-academic-standards) data issues
+  - Updated [`adoptionStatus`](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards#standardsframework) for Alabama Science (2023) from "Pending Implementation" to "Adopted"
+- Fixed [US academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/us-academic-standards) data issues
   - North Dakota (<Tooltip tip="English Language Arts">ELA</Tooltip>) — Incorrect `statementType` and `normalizedStatementType` for a standard
   - Ohio (<Tooltip tip="English Language Arts">ELA</Tooltip>) — Incorrect `statementType` and `normalizedStatementType` for a standard
   - Montana (Social Studies) — Incorrect `statementType` and `normalizedStatementType` for several standards
