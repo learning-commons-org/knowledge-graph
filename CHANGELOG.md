@@ -1,13 +1,12 @@
 # Changelog
 
-## [1.13.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.13.0...v1.13.1) (2026-09-09)
+## Knowledge Graph [v1.13.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.13.0...v1.13.1) (2026-09-09)
 
+**September 9, 2026**
 
-### Miscellaneous
+### Data v1.13.1
 
-* update v1.13 release notes ([#47](https://github.com/learning-commons-org/knowledge-graph/issues/47)) ([d8535a0](https://github.com/learning-commons-org/knowledge-graph/commit/d8535a0bcfee03936f54645c2e33139ccee68948))
-
-## Changelog
+- Restored the [`jaccard`](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards#understanding-the-jaccard-score) property on [`hasStandardAlignment`](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards#hasstandardalignment) relationships (unintentionally removed in [v1.12.0](#v1-12-0))
 
 ## Knowledge Graph [v1.13.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.12.0...v1.13.0) (2026-08-27)
 
