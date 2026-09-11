@@ -1,199 +1,68 @@
+# Knowledge Graph
+
 <img style="width:100%" alt="Knowledge Graph banner logo" src="https://raw.githubusercontent.com/learning-commons-org/.github/refs/heads/main/assets/kg_hero_2.jpg" />
 
 <p align="center">
-  <a href="https://docs.learningcommons.org/knowledge-graph/getting-started/quickstart" target="_blank">Getting set up</a>
+  <a href="https://platform.learningcommons.org/apps/knowledge-graph/explorer" target="_blank">Demo</a>
+   •
+  <a href="https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/introduction" target="_blank">Introduction</a>
+   •
+  <a href="https://docs.learningcommons.org/knowledge-graph/getting-started/quickstart" target="_blank">Quickstart</a>
+   •
+  <a href="https://docs.learningcommons.org/knowledge-graph/getting-started/tutorials" target="_blank">Tutorials</a>
 </p>
 
+Knowledge Graph is a data graph that can help edtech applications generate research-backed content, make data-driven recommendations, and better serve your users.
 
-## **About Knowledge Graph**
-Knowledge Graph is a structured dataset that connects state academic standards, curricula, and learning science data from domain experts.
+It covers a wide range of educational and learning science datasets, grouped by common categories or schemas:
 
-Key use cases include:
+| Schema                                                                                                             | Description                                                             | Datasets                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| :----------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Standards](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards)                           | Hierarchical structures of state or national learning goals             | <ul><li>[U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards)</li><li>[U.S. academic standards crosswalks](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards-crosswalks)</li><li>[English Language Development Standards Framework](https://docs.learningcommons.org/knowledge-graph/datasets/standards/english-language-development-standards-framework)</li><li>[XQ Competencies](https://docs.learningcommons.org/knowledge-graph/datasets/standards/xq-competencies)</li><li>[Carnegie Skills Progressions](https://docs.learningcommons.org/knowledge-graph/datasets/standards/carnegie-skills-progressions)</li></ul> |
+| [Learning components](https://docs.learningcommons.org/knowledge-graph/schema-reference/learning-components)       | Standards broken down into concrete skills or concepts                  | [Math learning components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/math-learning-components), [ELA learning components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/ela-learning-components)                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| [Learning progressions](https://docs.learningcommons.org/knowledge-graph/schema-reference/learning-progressions)   | Logical and usually sequential ordering of learning targets             | [Math Coherence Map](https://docs.learningcommons.org/knowledge-graph/datasets/learning-progressions/math-coherence-map)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [Curriculum](https://docs.learningcommons.org/knowledge-graph/schema-reference/curriculum)                         | Lessons, activities, materials, and assessments from publishers         | [IM® v.360](https://docs.learningcommons.org/knowledge-graph/datasets/curriculum/im-v360)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [Instructional guidance](https://docs.learningcommons.org/knowledge-graph/schema-reference/instructional-guidance) | Learner factors and strategies that connect student context to teaching | [Learner Variability Navigator](https://docs.learningcommons.org/knowledge-graph/datasets/instructional-guidance/learner-variability-navigator)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
-* **Standards alignment**: Identify how your content supports specific academic standards and create content rooted in learner competencies across all key subjects  
-* **Instructional planning**: Create dependencies, learning progressions, and content coverage, starting with math in the Common Core State Standards  
-* **Compare state standards**: Adapt content aligned to one state standard to other states, initially in math across Common Core State Standards and 15+ additional states  
-* **Curriculum alignment:** Align your content or create additional materials aligned to curriculum (private-beta access only \- details below on how to join)
+By integrating Knowledge Graph, you can draw from official standards and materials to plan lessons, generate resources, and better support both teachers and students. Knowledge Graph is framework-agnostic and has applications as vast as your users’ goals.
 
-Knowledge Graph is distributed as graph-native JSONL export files, making it accessible without specialized infrastructure. These files directly represent the underlying graph model, enabling developers to work with the data in graph databases, while remaining easy to ingest with standard data-processing tools. Developers can load the data into graph databases for relationship-centric querying or transform it for use in relational databases and data pipelines. This structure enables rich querying and supports AI-enhanced educational applications.
+Check out the [Quickstart](https://docs.learningcommons.org/knowledge-graph/getting-started/quickstart) to start downloading and using Knowledge Graph data.
 
-For complete setup instructions and usage examples, see the [full docs](https://docs.learningcommons.org/knowledge-graph/).
+## Example use cases
 
-## **Repository contents**
+- Reference [standards](https://docs.learningcommons.org/knowledge-graph/schema-reference/standards) data to generate a 5th grade science lesson that aligns to California’s state standards
+- Use [learning components](https://docs.learningcommons.org/knowledge-graph/schema-reference/learning-components) and [progressions](https://docs.learningcommons.org/knowledge-graph/schema-reference/learning-progressions) data to create a cumulative test that assesses a student’s progress through their English Language Arts unit
+- Leverage [curriculum](https://docs.learningcommons.org/knowledge-graph/schema-reference/curriculum) data to build personalized assessments for students struggling with a particular concept or skill, like adding improper fractions
+- Use [instructional guidance](https://docs.learningcommons.org/knowledge-graph/schema-reference/instructional-guidance) data to anticipate common math mistakes students make and generate differentiated lesson plans for these hurdles
 
-| Path | Description |
-| :---- | :---- |
-| [tutorials/](./tutorials/) | Standalone example apps to demonstrate how Knowledge Graph data could be applied to solve different use cases |
-| [LICENSE](./LICENSE.md) | Open source license details |
+Check out [more use cases](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/use-cases) for Knowledge Graph data in your edtech application.
 
-##  **Quick Start**
+## Repository contents
 
-You can access the Knowledge Graph data using:
+| Path                       | Description                                                                    |
+| :------------------------- | :----------------------------------------------------------------------------- |
+| [tutorials/](./tutorials/) | Example apps demonstrating Knowledge Graph applications in different use cases |
+| [LICENSE](./LICENSE.md)    | Open source license details                                                    |
 
-- **REST API**: Authenticate and make HTTP requests to retrieve academic standards directly. Best for applications that need real-time access. *(Currently available only to private beta users)*
-- **MCP Server**: AI models can reliably work with academic standards, learning components, and learning progressions. They can resolve standards, decompose them into granular learning components, and trace progressions across standards. *(Currently available only to private beta users)*
-- **Local JSONL**: Download local JSONL files and query them directly. Best for offline access, custom processing, or complex queries. *(Publicly available)*
+Check out more [Knowledge Graph tutorials here](https://docs.learningcommons.org/knowledge-graph/getting-started/tutorials).
 
-### REST API
+## Quickstart
 
-> **Note:** The API is in limited early release and is only available to some private beta users. Because the API is an early release, current users should expect occasional breaking changes.
+You can access Knowledge Graph data in several ways:
 
-#### What you'll do
+| Access method                                                                                         | When to use                                                                                                                                                                                                                                                                                                                                           |
+| :---------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Agent plugins](https://docs.learningcommons.org/knowledge-graph/using-knowledge-graph/agent-plugins) | For asking ChatGPT or Claude about Knowledge Graph data                                                                                                                                                                                                                                                                                               |
+| [Local files](https://docs.learningcommons.org/knowledge-graph/using-knowledge-graph/local-files)     | For offline access and custom processing of Knowledge Graph data — download all data using curl, or download by dataset using the [Dataset catalog](https://platform.learningcommons.org/dataset-catalog). Can be used across graph databases, relational systems, in-memory tools, and AI pipelines without requiring any specialized infrastructure |
+| [REST API](https://docs.learningcommons.org/knowledge-graph/using-knowledge-graph/rest-api)           | For real-time programmatic access to Knowledge Graph data in an application                                                                                                                                                                                                                                                                           |
+| [MCP server](https://docs.learningcommons.org/knowledge-graph/using-knowledge-graph/mcp-server)       | For using Knowledge Graph data natively with an LLM                                                                                                                                                                                                                                                                                                   |
 
-- Authenticate using an API key
-- Get a standards framework identifier (CASE UUID) for Multi-State Mathematics
-- Retrieve a list of academic standards using that framework identifier
+## Support & feedback
 
-#### What you'll need
+For questions or feedback, please [open an issue](https://github.com/learning-commons-org/knowledge-graph/issues) or reach out to us at [support@learningcommons.org](mailto:support@learningcommons.org).
 
-- A Learning Commons Platform account
-- An API key generated in the Learning Commons Platform
+To report a security issue, please disclose responsibly by contacting us at [security@learningcommons.org](mailto:security@learningcommons.org).
 
-#### Base URL
+## Disclaimer
 
-All REST API requests should be sent to:
-
-```
-https://api.learningcommons.org/knowledge-graph/v0
-```
-
-#### Authentication
-
-Include your API key in the `x-api-key` header on every request:
-
-```
-x-api-key: YOUR_API_KEY
-```
-
-#### STEP 1: Get a standards framework identifier
-
-Use your preferred HTTP client to send a GET request to the standards frameworks endpoint to get the CASE UUID for Multi-State Mathematics.
-
-```bash
-curl -X GET \
-  -H "x-api-key: YOUR_API_KEY" \
-  "https://api.learningcommons.org/knowledge-graph/v0/standards-frameworks?academicSubject=Mathematics&jurisdiction=Multi-State"
-```
-
-You should receive a 200 response with the CCSS Math framework for Multi-State, including the framework name, jurisdiction, adoption status, and a `caseIdentifierUUID` (GUID). Copy the `caseIdentifierUUID` from the response for the next step.
-
-#### STEP 2: Retrieve academic standards
-
-Use the `caseIdentifierUUID` you copied from Step 1's response with the academic standards endpoint to retrieve the individual standards for that framework.
-
-```bash
-curl -X GET \
-  -H "x-api-key: YOUR_API_KEY" \
-  "https://api.learningcommons.org/knowledge-graph/v0/academic-standards?standardsFrameworkCaseIdentifierUUID=YOUR_UUID_FROM_STEP_1"
-```
-
-> **Note:** If you skipped Step 1, you can use the CCSS Math framework UUID: `c6496676-d7cb-11e8-824f-0242ac160002` in place of `YOUR_UUID_FROM_STEP_1`.
-
-You should see a paginated list of academic standards aligned to that framework, including statement codes, descriptions, grade levels, and subject information.
-
-Example response:
-
-```json
-{
-  "data": [
-    {
-      "identifier": "e1755456-c533-5a84-891e-59725c0479e0",
-      "caseIdentifierURI": "https://satchelcommons.com/ims/case/v1p0/CFItems/6b9bf846-d7cc-11e8-824f-0242ac160002",
-      "caseIdentifierUUID": "6b9bf846-d7cc-11e8-824f-0242ac160002",
-      "name": null,
-      "statementCode": "3.NF.A.1",
-      "description": "Understand a fraction $\\frac{1}{b}$ as the quantity formed by 1 part when a whole is partitioned into b equal parts; understand a fraction $\\frac{a}{b}$ as the quantity formed by a parts of size $\\frac{1}{b}$.",
-      "statementType": "Standard",
-      "normalizedStatementType": "Standard",
-      "jurisdiction": "Multi-State",
-      "academicSubject": "Mathematics",
-      "gradeLevel": ["3"],
-      "inLanguage": "en-US",
-      "dateCreated": null,
-      "dateModified": "2025-02-05",
-      "notes": null,
-      "author": "1EdTech",
-      "provider": "Learning Commons",
-      "license": "https://creativecommons.org/licenses/by/4.0/",
-      "attributionStatement": "Knowledge Graph is provided by Learning Commons under the CC BY-4.0 license. Learning Commons received state standards and written permission under CC BY-4.0 from 1EdTech."
-    }
-  ],
-  "pagination": {
-    "limit": 1,
-    "nextCursor": "eyJpZGVudGlmaWVyIjogImUxNzU1NDU2LWM1MzMtNWE4NC04OTFlLTU5NzI1YzA0NzllMCJ9",
-    "hasMore": true
-  }
-}
-```
-
-### Local JSONL Files
-
-The Knowledge Graph data is available for download in newline delimited JSONL format with UTF-8 encoding. The graph data is exported with `nodes.jsonl` representing the nodes of the knowledge graph and the `relationships.jsonl` file capturing the connections between nodes.
-
-#### Files
-
-- `nodes.jsonl`: Contains graph node records, defining each node by a unique identifier, labels, and a set of associated properties.
-- `relationships.jsonl`: Contains graph relationship records, describing how nodes are connected, including the relationship type, properties, and the source and target nodes.
-
-#### Download options
-
-You can download the files through direct links or using curl commands.
-
-**Direct links**
-
-- [nodes.jsonl](https://cdn.learningcommons.org/knowledge-graph/v1.13.1/exports/nodes.jsonl?ref=github)
-- [relationships.jsonl](https://cdn.learningcommons.org/knowledge-graph/v1.13.1/exports/relationships.jsonl?ref=github)
-
-**Using curl commands**
-
-If you don't have curl installed, visit https://github.com/curl/curl for installation instructions.
-
-```bash
-curl -L "https://cdn.learningcommons.org/knowledge-graph/v1.13.1/exports/nodes.jsonl?ref=gh_curl" -o nodes.jsonl
-curl -L "https://cdn.learningcommons.org/knowledge-graph/v1.13.1/exports/relationships.jsonl?ref=gh_curl" -o relationships.jsonl
-```
-
-#### Querying with jq
-
-One option for querying the JSONL files is to use [jq](https://jqlang.github.io/jq/). Example to extract Common Core math standards:
-
-```bash
-jq -c 'select((.labels | contains(["StandardsFrameworkItem"])) and .properties.jurisdiction == "Multi-State" and .properties.academicSubject == "Mathematics")' nodes.jsonl > common_core_math_standards.jsonl
-```
-
-This filters for nodes with:
-- **Label:** `StandardsFrameworkItem`
-- **Jurisdiction:** `Multi-State` (Common Core)
-- **Academic Subject:** `Mathematics`
-
-## **Support & Feedback**
-
-We want to hear from you. For questions or feedback, please [open an issue](https://github.com/learning-commons-org/knowledge-graph/issues) or reach out to us at support@learningcommons.org. 
-
-## **Partner with us**
-
-**Learn more about our Knowledge Graph or join our private beta to access:**
-
-* Full curriculum-aligned datasets
-
-* Early access to new features and APIs
-
-* Personalized support from the Knowledge Graph team
-
-Contact us [here](https://learningcommons.org/contact/?utm_source=github&utm_medium=kg).
-
-## **Reporting Security Issues**
-
-If you believe you have found a security issue, please responsibly disclose by contacting us at [security@learningcommons.org](mailto:security@learningcommons.org).
-
-## **Disclaimer**
-
-The resources provided in this repository are made available "as-is", without warranties or guarantees of any kind. They may contain inaccuracies, limitations, or other constraints depending on the context of use. Use of these resources is subject to [our Terms of Use](https://learningcommons.org/terms-of-use/).
-
-By accessing or using these resources, you acknowledge that:
-
-* You are responsible for evaluating their suitability for your specific use case.  
-* Learning Commons makes no representations about the accuracy, completeness, or fitness of these resources for any particular purpose.  
-* Any use of the materials is at your own risk, and Learning Commons is not liable for any direct or indirect consequences that may result.
-
-Please refer to each resource’s README, license, and associated docs for any additional limitations, attribution requirements, or guidance specific to that resource.
+Use of Knowledge Graph and other Learning Commons resources is subject to our [Terms of Use](https://learningcommons.org/terms-of-use/).
