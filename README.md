@@ -57,10 +57,11 @@ Official expectations for student learning across academic subjects and jurisdic
 
 Granular skills or concepts that break academic standards into teachable parts. Schema: [Learning components](https://docs.learningcommons.org/knowledge-graph/schema-reference/learning-components).
 
-| Dataset                                                                                                                            | Access | Downloads                |
-| :--------------------------------------------------------------------------------------------------------------------------------- | :----- | :----------------------- |
-| [Math learning components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/math-learning-components) | Open   | Math learning components |
-| [ELA learning components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/ela-learning-components)   | Open   | ELA learning components  |
+| Dataset                                                                                                                              | Access | Downloads                 |
+| :----------------------------------------------------------------------------------------------------------------------------------- | :----- | :------------------------ |
+| [Math learning components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/math-learning-components)   | Open   | Math learning components  |
+| [ELA learning components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/ela-learning-components)     | Open   | ELA learning components   |
+| [Eedi Misconceptions Graph](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/eedi-misconceptions-graph) | Open   | Eedi Misconceptions Graph |
 
 ### Learning progressions
 
@@ -78,9 +79,10 @@ How standards build towards and relate to each other. Schema: [Learning progress
 
 Standards-aligned lessons and assessments from a publisher. Schema: [Curriculum](https://docs.learningcommons.org/knowledge-graph/schema-reference/curriculum).
 
-| Dataset                                                                                   | Access       | Downloads                                                                                |
-| :---------------------------------------------------------------------------------------- | :----------- | :--------------------------------------------------------------------------------------- |
-| [IM® v.360](https://docs.learningcommons.org/knowledge-graph/datasets/curriculum/im-v360) | Open + Gated | Scope and sequence (Open); Instructional materials (Gated); Assessment materials (Gated) |
+| Dataset                                                                                     | Access       | Downloads                                                                                |
+| :------------------------------------------------------------------------------------------ | :----------- | :--------------------------------------------------------------------------------------- |
+| [IM® v.360](https://docs.learningcommons.org/knowledge-graph/datasets/curriculum/im-v360)   | Open + Gated | Scope and sequence (Open); Instructional materials (Gated); Assessment materials (Gated) |
+| [OpenSciEd](https://docs.learningcommons.org/knowledge-graph/datasets/curriculum/openscied) | Gated        | OpenSciEd curriculum (Gated)                                                             |
 
 ### Instructional guidance
 
@@ -88,9 +90,10 @@ Standards-aligned lessons and assessments from a publisher. Schema: [Curriculum]
 
 Grade- and subject-specific learner profiles, research-backed factors, and instructional strategies. Schema: [Instructional guidance](https://docs.learningcommons.org/knowledge-graph/schema-reference/instructional-guidance).
 
-| Dataset                                                                                                                                         | Access | Downloads                    |
-| :---------------------------------------------------------------------------------------------------------------------------------------------- | :----- | :--------------------------- |
-| [Learner Variability Navigator](https://docs.learningcommons.org/knowledge-graph/datasets/instructional-guidance/learner-variability-navigator) | Gated  | Math models; Literacy models |
+| Dataset                                                                                                                                                                 | Access | Downloads                                           |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----- | :-------------------------------------------------- |
+| [Learner Variability Navigator](https://docs.learningcommons.org/knowledge-graph/datasets/instructional-guidance/learner-variability-navigator)                         | Gated  | Math models; Literacy models                        |
+| [English Learners Success Forum Guidelines](https://docs.learningcommons.org/knowledge-graph/datasets/instructional-guidance/english-learners-success-forum-guidelines) | Open   | Math guidelines; ELA guidelines; Science guidelines |
 
 ## Additional resources
 
