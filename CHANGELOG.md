@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.13.2](https://github.com/learning-commons-org/knowledge-graph/compare/v1.13.1...v1.13.2) (2026-09-21)
+
+
+### Bug Fixes
+
+* Update license + README ([#54](https://github.com/learning-commons-org/knowledge-graph/issues/54)) ([69591b0](https://github.com/learning-commons-org/knowledge-graph/commit/69591b0a39f5bb2bc9e28cda95fe41a6af64105b))
+
+## Changelog
+
 ## Knowledge Graph [v1.13.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.13.0...v1.13.1) (2026-09-09)
 
 **September 9, 2026**
