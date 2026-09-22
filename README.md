@@ -1,22 +1,20 @@
 <img style="width:100%" alt="Knowledge Graph banner logo" src="https://raw.githubusercontent.com/learning-commons-org/.github/refs/heads/main/assets/kg_hero_2.jpg" />
 
 <p align="center">
-  <a href="https://docs.learningcommons.org/knowledge-graph/getting-started/quickstart">Quickstart</a>
-  &nbsp;•&nbsp;
-  <a href="https://platform.learningcommons.org/apps/knowledge-graph/explorer">Knowledge Graph Explorer</a>
-  &nbsp;•&nbsp;
-  <a href="https://docs.learningcommons.org/knowledge-graph/getting-started/tutorials/tag-content-to-state-standards">Tutorials</a>
+  <a href="https://learningcommons.org/" target="_blank">Learning Commons</a>
+   •
+  <a href="https://platform.learningcommons.org/login?tab=signin" target="_blank">Platform</a>
+  •
+  <a href="https://docs.learningcommons.org/evaluators/" target="_blank">Docs</a>
 </p>
 
 ## What is Knowledge Graph?
 
-[Knowledge Graph](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/introduction) is a structured collection of enriched educational datasets that connects academic standards, curricula, and learning science data.
+[Knowledge Graph](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/introduction) is a structured collection of enriched educational datasets that connects academic standards, curricula, and learning science data. Datasets are modeled as graphs made up of [entities](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/core-concepts) (the elements in a dataset) and [relationships](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/core-concepts) (how those elements connect).
 
-It standardizes those datasets on a unified schema so edtech developers can build AI-powered tools on official standards, publisher materials, and research-backed instructional guidance — without assembling that data themselves.
+Knowledge Graph datasets use a standardized schema, so that edtech developers can build AI-powered tools without having to build a data pipeline themselves.
 
-Datasets are modeled as graphs: [entities](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/core-concepts) (the elements in a dataset) and [relationships](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/core-concepts) (how those elements connect).
-
-See [use cases](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/use-cases) for aligning content to standards, planning instruction, comparing state frameworks, and more.
+Check out [common use cases](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/use-cases) and [tutorials](https://docs.learningcommons.org/knowledge-graph/getting-started/tutorials/) for Knowledge Graph.
 
 ## Access Knowledge Graph
 
@@ -24,6 +22,7 @@ Knowledge Graph is database-neutral and interoperable. Start with the [Quickstar
 
 | Access method                                                                                             | When to use                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | :-------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**Knowledge Graph Explorer**](https://platform.learningcommons.org/apps/knowledge-graph/explorer)       | For visually exploring Knowledge Graph datasets in the browser                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | [**Agent plugins**](https://docs.learningcommons.org/knowledge-graph/using-knowledge-graph/agent-plugins) | For asking ChatGPT or Claude about Knowledge Graph data                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | [**Local files**](https://docs.learningcommons.org/knowledge-graph/using-knowledge-graph/local-files)     | For offline access and custom processing of Knowledge Graph data — download all data using [`curl`](https://docs.learningcommons.org/knowledge-graph/using-knowledge-graph/local-files#download-all-data), or download by dataset using the [Dataset catalog](https://platform.learningcommons.org/dataset-catalog)&nbsp;↗<br/><br/>Can be used across graph databases, relational systems, in-memory tools, and AI pipelines without requiring any specialized infrastructure |
 | [**REST API**](https://docs.learningcommons.org/knowledge-graph/using-knowledge-graph/rest-api)           | For real-time programmatic access to Knowledge Graph data in an application                                                                                                                                                                                                                                                                                                                                                                                                    |
