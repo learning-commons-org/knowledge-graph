@@ -10,13 +10,11 @@
 
 ## What is Knowledge Graph?
 
-[Knowledge Graph](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/introduction) is a structured collection of enriched educational datasets that connects academic standards, curricula, and learning science data.
+[Knowledge Graph](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/introduction) is a structured collection of enriched educational datasets that connects academic standards, curricula, and learning science data. Datasets are modeled as graphs made up of [entities](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/core-concepts) (the elements in a dataset) and [relationships](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/core-concepts) (how those elements connect).
 
-It standardizes those datasets on a unified schema so edtech developers can build AI-powered tools on official standards, publisher materials, and research-backed instructional guidance — without assembling that data themselves.
+Knowledge Graph datasets use a standardized schema, so that edtech developers can build AI-powered tools without having to build a data pipeline themselves.
 
-Datasets are modeled as graphs: [entities](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/core-concepts) (the elements in a dataset) and [relationships](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/core-concepts) (how those elements connect).
-
-Check out our docs to see more Knowledge Graph [use cases](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/use-cases) and [tutorials](https://docs.learningcommons.org/knowledge-graph/getting-started/tutorials/).
+Check out [common use cases](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/use-cases) and [tutorials](https://docs.learningcommons.org/knowledge-graph/getting-started/tutorials/) for Knowledge Graph.
 
 ## Access Knowledge Graph
 
