@@ -16,7 +16,7 @@ It standardizes those datasets on a unified schema so edtech developers can buil
 
 Datasets are modeled as graphs: [entities](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/core-concepts) (the elements in a dataset) and [relationships](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/core-concepts) (how those elements connect).
 
-See [use cases](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/use-cases) for aligning content to standards, planning instruction, comparing state frameworks, and more.
+Check out our docs to see more Knowledge Graph [use cases](https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/use-cases) and [tutorials](https://docs.learningcommons.org/knowledge-graph/getting-started/tutorials/).
 
 ## Access Knowledge Graph
 
