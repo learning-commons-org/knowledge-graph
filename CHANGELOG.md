@@ -1,5 +1,28 @@
 # Changelog
 
+## Knowledge Graph [v1.14.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.13.1...v1.14.0) (2026-09-22)
+
+**September 22, 2026**
+
+### Data v1.14.0
+
+- Added new datasets to Knowledge Graph
+  - [English Learners Success Forum Guidelines](https://docs.learningcommons.org/knowledge-graph/datasets/instructional-guidance/english-learners-success-forum-guidelines)
+  - [Eedi Misconceptions Graph](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/eedi-misconceptions-graph)
+- Fixes and updates to the [U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards) dataset
+  - Filled in missing `statementType` and `normalizedStatementType` fields
+  - Made some reclassifications (e.g. "Standard Grouping" → "Standard")
+  - `gradeLevel` corrections in Indiana Science (e.g., K-12 by default → more specific grade bands)
+  - Fixed `inLanguage` values for Indiana Science, South Carolina Social Studies, Illinois Science, and Indiana Social Studies standards (English standards were mislabeled as Spanish)
+
+### Platform updates
+
+- New [Dataset catalog](https://platform.learningcommons.org/dataset-catalog) for easy downloading of Knowledge Graph datasets
+
+### Github updates
+
+- Update license + README ([#54](https://github.com/learning-commons-org/knowledge-graph/issues/54)) ([69591b0](https://github.com/learning-commons-org/knowledge-graph/commit/69591b0a39f5bb2bc9e28cda95fe41a6af64105b))
+
 ## Knowledge Graph [v1.13.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.13.0...v1.13.1) (2026-09-09)
 
 **September 9, 2026**
