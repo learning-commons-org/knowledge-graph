@@ -1,11 +1,11 @@
 <img style="width:100%" alt="Knowledge Graph banner logo" src="https://raw.githubusercontent.com/learning-commons-org/.github/refs/heads/main/assets/kg_hero_2.jpg" />
 
 <p align="center">
-  <a href="https://docs.learningcommons.org/knowledge-graph/getting-started/quickstart">Quickstart</a>
-  &nbsp;•&nbsp;
-  <a href="https://platform.learningcommons.org/apps/knowledge-graph/explorer">Knowledge Graph Explorer</a>
-  &nbsp;•&nbsp;
-  <a href="https://docs.learningcommons.org/knowledge-graph/getting-started/tutorials/tag-content-to-state-standards">Tutorials</a>
+  <a href="https://learningcommons.org/" target="_blank">Learning Commons</a>
+   •
+  <a href="https://platform.learningcommons.org/login?tab=signin" target="_blank">Platform</a>
+  •
+  <a href="https://docs.learningcommons.org/evaluators/" target="_blank">Docs</a>
 </p>
 
 ## What is Knowledge Graph?
