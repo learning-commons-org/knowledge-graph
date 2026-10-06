@@ -5,7 +5,7 @@
    •
   <a href="https://platform.learningcommons.org/login?tab=signin" target="_blank">Platform</a>
   •
-  <a href="https://docs.learningcommons.org/evaluators/" target="_blank">Docs</a>
+  <a href="https://docs.learningcommons.org/knowledge-graph/understanding-knowledge-graph/introduction/" target="_blank">Docs</a>
 </p>
 
 ## What is Knowledge Graph?
