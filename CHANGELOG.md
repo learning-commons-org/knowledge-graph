@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.14.1](https://github.com/learning-commons-org/knowledge-graph/compare/v1.14.0...v1.14.1) (2026-10-06)
+
+
+### Documentation
+
+* Add LC links to top of README for consistency ([#57](https://github.com/learning-commons-org/knowledge-graph/issues/57)) ([65701e9](https://github.com/learning-commons-org/knowledge-graph/commit/65701e9cfbd5caa8d19eeece9bbdd9363ad6c69d))
+
+## Changelog
+
 ## Knowledge Graph [v1.14.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.13.1...v1.14.0) (2026-09-22)
 
 **September 22, 2026**
