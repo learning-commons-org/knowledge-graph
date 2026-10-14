@@ -6,10 +6,6 @@
 
 ### Data v1.15.0
 
-- Changed the format of [IM® v.360](https://docs.learningcommons.org/knowledge-graph/datasets/curriculum/im-v360) instructional materials from HTML to Markdown
-  - Applies to the `content` property on [`Material`](https://docs.learningcommons.org/knowledge-graph/schema-reference/curriculum#material) entities
-  - Math notation is kept as LaTeX
-  - Image descriptions that were in screen-reader-only markup are now in the Markdown image alt text
 - Fixes and updates to [Math Learning Components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/math-learning-components)
   - Aligned to [U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards) for Alaska, Arizona, Oklahoma, and Virginia, with crosswalks to <Tooltip tip="Common Core State Standards">CCSS</Tooltip>
   - Realigned to [U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards) for North Carolina, Texas, and Wisconsin
