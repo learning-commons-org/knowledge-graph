@@ -6,6 +6,11 @@
 
 ### Data v1.15.0
 
+- Changed the format of [IM® v.360](https://docs.learningcommons.org/knowledge-graph/datasets/curriculum/im-v360) instructional materials from HTML to Markdown
+  - Applies to the `content` property on [`Material`](https://docs.learningcommons.org/knowledge-graph/schema-reference/curriculum#material) entities
+  - Math notation is kept as LaTeX
+  - Image descriptions that were in screen-reader-only markup are now in the Markdown image alt text
+  - IM® v.360 available as a gated dataset in the [Dataset catalog](https://platform.learningcommons.org/dataset-catalog)&nbsp;↗
 - Fixes and updates to [Math Learning Components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/math-learning-components)
   - Aligned to [U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards) for Alaska, Arizona, Oklahoma, and Virginia, with crosswalks to <Tooltip tip="Common Core State Standards">CCSS</Tooltip>
   - Realigned to [U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards) for North Carolina, Texas, and Wisconsin
@@ -20,6 +25,7 @@
 - Added new datasets to Knowledge Graph
   - [English Learners Success Forum Guidelines](https://docs.learningcommons.org/knowledge-graph/datasets/instructional-guidance/english-learners-success-forum-guidelines)
   - [Eedi Misconceptions Graph](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/eedi-misconceptions-graph)
+  - [OpenSciEd](https://docs.learningcommons.org/knowledge-graph/datasets/curriculum/openscied) available as a gated dataset in the [Dataset catalog](https://platform.learningcommons.org/dataset-catalog)&nbsp;↗
 - Fixes and updates to the [U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards) dataset
   - Filled in missing `statementType` and `normalizedStatementType` fields
   - Made some reclassifications (e.g. "Standard Grouping" → "Standard")
