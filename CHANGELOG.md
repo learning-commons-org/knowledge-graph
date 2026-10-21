@@ -1,5 +1,24 @@
 ## Changelog
 
+## Knowledge Graph [v1.16.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.15.0...v1.16.0) (2026-10-21)
+
+**October 21, 2026**
+
+### Data v1.16.0
+
+- Updated the [U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards) dataset from <Tooltip tip="Common Good Learning Tools">CGLT</Tooltip> data
+  - Added current standards frameworks for Kentucky (<Tooltip tip="English Language Arts">ELA</Tooltip>) and Tennessee (Science)
+  - Updated Kentucky (<Tooltip tip="English Language Arts">ELA</Tooltip>, 2019) and Tennessee (Science, 2017) frameworks to be superseded frameworks (existing relationships to other entities preserved)
+  - Added pending standards frameworks for Louisiana (Mathematics), Louisiana (<Tooltip tip="English Language Arts">ELA</Tooltip>), North Carolina (<Tooltip tip="English Language Arts">ELA</Tooltip>), Ohio (<Tooltip tip="English Language Arts">ELA</Tooltip>), and Washington (Mathematics)
+- Fixed [U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards) data issues
+  - Arkansas: Removed orphaned, superseded standards
+  - Minnesota: Gave unique identifiers to standards that shared a UUID
+- Made fixes and updates to [Math learning components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/math-learning-components)
+  - Aligned to South Carolina (K–8, Algebra 1, Geometry with Statistics, and Algebra 2 with Probability) standards in [U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards), with crosswalks to <Tooltip tip="Common Core State Standards">CCSS</Tooltip> in [U.S. academic standards crosswalks](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards-crosswalks)
+  - Added alignments to more Arkansas, California, Georgia, Mississippi, and Utah standards (text matches an already-aligned standard)
+  - Realigned one Arizona standard
+  - Realigned two Grade 7 learning components about slicing three-dimensional figures from <Tooltip tip="Common Core State Standards">CCSS</Tooltip> 7.G.B.5 (and matching state standards) to 7.G.A.3
+
 ## Knowledge Graph [v1.15.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.14.0...v1.15.0) (2026-10-14)
 
 **October 14, 2026**
