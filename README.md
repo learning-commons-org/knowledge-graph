@@ -1,3 +1,7 @@
+# Knowledge Graph
+
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/learning-commons-org/knowledge-graph)
+
 <img style="width:100%" alt="Knowledge Graph banner logo" src="https://raw.githubusercontent.com/learning-commons-org/.github/refs/heads/main/assets/kg_hero_2.jpg" />
 
 <p align="center">
