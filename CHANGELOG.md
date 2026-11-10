@@ -14,7 +14,7 @@
   - Added **English Language Development** and **Spanish Language Development** to [`AcademicSubjectENUM`](https://docs.learningcommons.org/knowledge-graph/schemas/enums-and-formats#academicsubjectenum)
   - Added **Pending Implementation** to [`AdoptionStatusENUM`](https://docs.learningcommons.org/knowledge-graph/schemas/enums-and-formats#adoptionstatusenum)
 - Updated the [ELA learning components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/ela-learning-components) dataset
-  - Corrected the `attributionStatement` on [`supports`](https://docs.learningcommons.org/knowledge-graph/schemas/learning-components#supports) relationships to Common Core <Tooltip tip="English Language Arts">ELA</Tooltip> standards
+  - Corrected the `attributionStatement` on [`supports`](https://docs.learningcommons.org/knowledge-graph/schemas/learning-components#supports) relationships to Common Core ELA standards
 
 ## Knowledge Graph [v1.16.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.15.0...v1.16.0) (2026-10-21)
 
