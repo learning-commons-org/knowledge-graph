@@ -1,5 +1,21 @@
 ## Changelog
 
+## Knowledge Graph [v1.17.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.16.0...v1.17.0) (2026-11-10)
+
+**November 11, 2026**
+
+### Data v1.17.0
+
+- Added the [New Meridian Mastery Statistics](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/new-meridian-mastery-statistics) dataset, which estimates the difficulty of mastering Math learning components and Common Core standards (grades 3–8 and high school)
+- Added **Language Development standards** to the [U.S. academic standards](https://docs.learningcommons.org/knowledge-graph/datasets/standards/us-academic-standards) dataset
+  - Includes data included in the now-removed English Language Development Standards Framework dataset (WIDA ELD 2020)
+  - Added English language development standards for Arizona, California, Florida, Montana, North Carolina, and Texas
+  - Added Spanish language development standards (Marco DALE)
+  - Added **English Language Development** and **Spanish Language Development** to [`AcademicSubjectENUM`](https://docs.learningcommons.org/knowledge-graph/schemas/enums-and-formats#academicsubjectenum)
+  - Added **Pending Implementation** to [`AdoptionStatusENUM`](https://docs.learningcommons.org/knowledge-graph/schemas/enums-and-formats#adoptionstatusenum)
+- Updated the [ELA learning components](https://docs.learningcommons.org/knowledge-graph/datasets/learning-components/ela-learning-components) dataset
+  - Corrected the `attributionStatement` on [`supports`](https://docs.learningcommons.org/knowledge-graph/schemas/learning-components#supports) relationships to Common Core <Tooltip tip="English Language Arts">ELA</Tooltip> standards
+
 ## Knowledge Graph [v1.16.0](https://github.com/learning-commons-org/knowledge-graph/compare/v1.15.0...v1.16.0) (2026-10-21)
 
 **October 21, 2026**
